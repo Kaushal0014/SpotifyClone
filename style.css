@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    background-color:darkorange;
+}
+nav{
+    font-family: 'Bebas Neue', cursive;
+}
+nav ul{
+    display:flex;
+    align-items:center;
+    list-style:none;
+    height: 70px;
+    background-color:yellowgreen;
+}
+
+.brand img{
+    width:110px;
+}
+*{
+    margin: 0;
+}
+nav ul li{
+    font-size:30px;
+    padding:0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight:bolder;
+    font-size:55px;
+}
+.bottom{
+    position: sticky;
+    height: 71px;
+    background-color:darkorchid;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2px;
+}
+.icons{
+    margin-top:14px;
+}
+.icons i{
+    cursor: pointer;
+}
+.container{
+    background-color:black;
+    min-height: 70vh;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    color: whitesmoke;
+    border-radius: 15px 15px 15px 15px;
+-moz-border-radius: 15px 15px 15px 15px;
+-webkit-border-radius: 15px 15px 15px 15px;
+border: 7px solid yellow;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOvx-VPCtqhPLa-Hj9yQJdjjcLfdX59Rg03w&usqp=CAU);
+background-repeat: no-repeat;
+background-size: 50% 100%;
+background-position: right;
+}
+#MyProgressBar{
+    width: 80vw;
+}
+.songItem{
+    height:70px;
+    display:flex;
+    background-color: aliceblue;
+   
+    margin: 12px 0;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius : 34px;
+
+}
+.songItem img{
+    width: 60px;
+    margin: 0 23px ;
+    height: 49px;
+    border-radius: 12px;
+}
+.songItem span{
+    padding:0 4px;
+}
+.songItem i{
+    padding :0 5px;
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    
+}
