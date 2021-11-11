@@ -62,8 +62,11 @@ background-repeat: no-repeat;
 background-size: 50% 100%;
 background-position: right;
 }
-#MyProgressBar{
+#myProgressBar{
     width: 80vw;
+    cursor: pointer;
+   
+
 }
 .songItem{
     height:70px;
@@ -94,4 +97,8 @@ background-position: right;
     position: absolute;
     left: 10vw;
     
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
 }
